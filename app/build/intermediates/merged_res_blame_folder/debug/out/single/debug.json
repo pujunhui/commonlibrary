@@ -1,0 +1,582 @@
+[
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_activity_loading_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/activity_loading_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_fat.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/fat.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_icon_search_no.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/icon_search_no.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/color_vpi__light_theme.xml.flat",
+        "source": "com.youdu.app-main-14:/color/vpi__light_theme.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_4_b_01.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_4_b_01.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_arrow_right.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/arrow_right.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_fragment_mine_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/fragment_mine_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_fli.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/fli.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_2_b_04.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_2_b_04.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable_bg_message_imooc.xml.flat",
+        "source": "com.youdu.app-main-14:/drawable/bg_message_imooc.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable_photo_drawable_btn.xml.flat",
+        "source": "com.youdu.app-main-14:/drawable/photo_drawable_btn.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_icon_alipay.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/icon_alipay.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_item_product_card_two_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/item_product_card_two_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_item_qrcode_title.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/item_qrcode_title.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_item_hot_product_pager_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/item_hot_product_pager_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.youdu.app-main-14:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_comui_tab_person_selected.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/comui_tab_person_selected.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_fragment_welcome_four.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/fragment_welcome_four.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_comment_back_normal.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/comment_back_normal.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_page_loading_01.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/page_loading_01.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_page_loading_14.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/page_loading_14.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_icon_arrow.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/icon_arrow.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable_bg_message_zan.xml.flat",
+        "source": "com.youdu.app-main-14:/drawable/bg_message_zan.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_flj.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/flj.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/color_vpi__dark_theme.xml.flat",
+        "source": "com.youdu.app-main-14:/color/vpi__dark_theme.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_trade_share.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/trade_share.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_page_loading_08.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/page_loading_08.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_fragment_welcome_one.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/fragment_welcome_one.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable_qrcode_drawable_btn.xml.flat",
+        "source": "com.youdu.app-main-14:/drawable/qrcode_drawable_btn.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_item_home_recommand_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/item_home_recommand_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable_bg_message_unread.xml.flat",
+        "source": "com.youdu.app-main-14:/drawable/bg_message_unread.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_activity_nfcard_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/activity_nfcard_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_item_message_card_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/item_message_card_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable_bg_comment_owner.xml.flat",
+        "source": "com.youdu.app-main-14:/drawable/bg_comment_owner.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_listview_course_comment_footer_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/listview_course_comment_footer_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_activity_qrcode_capture_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/activity_qrcode_capture_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_publish_in_pond.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/publish_in_pond.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_activity_photo_view_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/activity_photo_view_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_2_b_03.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_2_b_03.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_item_send_comment_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/item_send_comment_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_activity_message_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/activity_message_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable_loading_data_anim.xml.flat",
+        "source": "com.youdu.app-main-14:/drawable/loading_data_anim.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_comui_tab_home_selected.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/comui_tab_home_selected.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_comui_share_weixin_pengyou.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/comui_share_weixin_pengyou.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_page_loading_10.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/page_loading_10.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_page_loading_09.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/page_loading_09.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_comui_share_weixin.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/comui_share_weixin.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_page_loading_06.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/page_loading_06.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_dialog_share_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/dialog_share_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_icon_splash.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/icon_splash.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_flh.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/flh.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_page_loading_03.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/page_loading_03.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_3_a_01.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_3_a_01.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_comui_tab_pond.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/comui_tab_pond.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_fragment_welcome_five.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/fragment_welcome_five.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_item_product_card_one_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/item_product_card_one_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_2_b_01.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_2_b_01.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_qrcode_scan_line.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/qrcode_scan_line.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_item_search_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/item_search_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable_bg_home_edittext.xml.flat",
+        "source": "com.youdu.app-main-14:/drawable/bg_home_edittext.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_1_c_01.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_1_c_01.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_page_loading_13.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/page_loading_13.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_setting_selected.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/setting_selected.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.youdu.app-main-14:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_1_a_01.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_1_a_01.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_item_product_card_three_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/item_product_card_three_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable_bg_message_tip.xml.flat",
+        "source": "com.youdu.app-main-14:/drawable/bg_message_tip.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_post_close_click_hl.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/post_close_click_hl.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_flk.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/flk.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_item_associate_mail_list.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/item_associate_mail_list.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_icon_position.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/icon_position.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_fragment_welcome_two.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/fragment_welcome_two.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_page_loading_04.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/page_loading_04.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_icon_san_jiao.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/icon_san_jiao.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_comui_tab_message.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/comui_tab_message.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_icon_login.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/icon_login.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_comui_tab_message_selected.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/comui_tab_message_selected.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_page_loading_12.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/page_loading_12.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.youdu.app-main-14:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_fle.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/fle.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable_flash_drawable_btn.xml.flat",
+        "source": "com.youdu.app-main-14:/drawable/flash_drawable_btn.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_listview_home_head_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/listview_home_head_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_other_scan_text_icon.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/other_scan_text_icon.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_bg_recommend_mail_list.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/bg_recommend_mail_list.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_3_c_01.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_3_c_01.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_icon_chats.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/icon_chats.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_activity_search_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/activity_search_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_icon_imooc.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/icon_imooc.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_item_qrcode_footer.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/item_qrcode_footer.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_comui_tab_pond_selected.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/comui_tab_pond_selected.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_bar_code_scan_icon.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/bar_code_scan_icon.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_dialog_mycode_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/dialog_mycode_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_fragment_message_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/fragment_message_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_fragment_welcome_three.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/fragment_welcome_three.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_activity_login_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/activity_login_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_item_video_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/item_video_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_icon_jianpan.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/icon_jianpan.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_activity_course_detail_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/activity_course_detail_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_page_loading_11.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/page_loading_11.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_icon_share.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/icon_share.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_activity_jpush_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/activity_jpush_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.youdu.app-main-14:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_page_loading_05.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/page_loading_05.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_flf.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/flf.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_dialog_common_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/dialog_common_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable_mm_title_back_btn.xml.flat",
+        "source": "com.youdu.app-main-14:/drawable/mm_title_back_btn.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_bg_download.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/bg_download.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/xml_accessible_service_config.xml.flat",
+        "source": "com.youdu.app-main-14:/xml/accessible_service_config.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_icon_search.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/icon_search.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_activity_home_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/activity_home_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_fragment_home_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/fragment_home_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_comui_tab_home.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/comui_tab_home.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_4_c_01.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_4_c_01.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/anim_actionsheet_in.xml.flat",
+        "source": "com.youdu.app-main-14:/anim/actionsheet_in.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_page_loading_02.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/page_loading_02.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_comui_share_qq.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/comui_share_qq.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_activity_guide_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/activity_guide_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_default_user_avatar.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/default_user_avatar.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_activity_setting_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/activity_setting_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_love_red.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/love_red.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_icon_follow.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/icon_follow.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_4_a_01.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_4_a_01.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_flash_light.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/flash_light.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_2_b_02.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_2_b_02.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_bg_loading.jpg.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/bg_loading.jpg"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_flg.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/flg.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_3_b_01.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_3_b_01.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable_item_search_drawable.xml.flat",
+        "source": "com.youdu.app-main-14:/drawable/item_search_drawable.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/anim_actionsheet_out.xml.flat",
+        "source": "com.youdu.app-main-14:/anim/actionsheet_out.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_icon_gonggao.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/icon_gonggao.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_comui_share_qqzone.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/comui_share_qqzone.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable_bg_time_text.xml.flat",
+        "source": "com.youdu.app-main-14:/drawable/bg_time_text.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_2_a_01.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_2_a_01.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_listview_course_comment_head_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/listview_course_comment_head_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_activity_ar_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/activity_ar_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/xml_preferences.xml.flat",
+        "source": "com.youdu.app-main-14:/xml/preferences.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_fas.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/fas.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_2_c_01.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_2_c_01.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_page_loading_07.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/page_loading_07.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/raw_beep.ogg.flat",
+        "source": "com.youdu.app-main-14:/raw/beep.ogg"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/layout_item_comment_layout.xml.flat",
+        "source": "com.youdu.app-main-14:/layout/item_comment_layout.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-nodpi_bg_1_b_01.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-nodpi/bg_1_b_01.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_comui_tab_person.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/comui_tab_person.png"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/xml_nfc_tech_filter.xml.flat",
+        "source": "com.youdu.app-main-14:/xml/nfc_tech_filter.xml"
+    },
+    {
+        "merged": "com.youdu.app-merged_res-12:/drawable-xhdpi_category.png.flat",
+        "source": "com.youdu.app-main-14:/drawable-xhdpi/category.png"
+    }
+]

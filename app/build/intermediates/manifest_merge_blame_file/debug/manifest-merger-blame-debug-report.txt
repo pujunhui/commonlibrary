@@ -1,0 +1,1203 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.youdu"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:6:5-76
+12-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:10:5-66
+16-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:10:22-63
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:11:5-65
+17-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:11:22-62
+18    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+18-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:12:5-79
+18-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:13:5-68
+19-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:13:22-65
+20    <uses-permission android:name="android.permission.FLASHLIGHT" />
+20-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:14:5-69
+20-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:14:22-66
+21
+22    <uses-feature android:name="android.hardware.camera" />
+22-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:16:5-60
+22-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:16:19-57
+23    <uses-feature android:name="android.hardware.camera.autofocus" />
+23-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:17:5-70
+23-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:17:19-67
+24
+25    <!-- shareSDK所需权限 -->
+26    <uses-permission android:name="android.permission.GET_TASKS" />
+26-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:20:5-68
+26-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:20:22-65
+27    <uses-permission android:name="android.permission.INTERNET" />
+27-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:5:5-67
+27-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:5:22-64
+28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+28-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:6:5-76
+28-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:6:22-73
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:7:5-79
+29-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:7:22-76
+30    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+30-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:24:5-76
+30-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:24:22-73
+31    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+31-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:9:5-81
+31-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:9:22-78
+32    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+32-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:26:5-75
+32-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:26:22-72
+33    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+33-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:27:5-74
+33-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:27:22-71
+34    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+34-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:28:5-71
+34-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:28:22-68
+35
+36    <!-- JPush permission -->
+37    <permission
+37-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:31:5-33:47
+38        android:name="com.youdu.permission.JPUSH_MESSAGE"
+38-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:32:9-58
+39        android:protectionLevel="signature" />
+39-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:33:9-44
+40
+41    <uses-permission android:name="com.youdu.permission.JPUSH_MESSAGE" />
+41-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:35:5-74
+41-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:35:22-71
+42    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+42-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:36:5-79
+42-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:36:22-76
+43    <uses-permission android:name="android.permission.INTERNET" />
+43-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:5:5-67
+43-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:5:22-64
+44    <uses-permission android:name="android.permission.WAKE_LOCK" />
+44-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:13:5-68
+44-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:13:22-65
+45    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+45-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:26:5-75
+45-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:26:22-72
+46    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+46-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:9:5-81
+46-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:9:22-78
+47    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+47-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:8:5-80
+47-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:8:22-77
+48    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+48-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:42:5-73
+48-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:42:22-70
+49    <uses-permission android:name="android.permission.VIBRATE" />
+49-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:10:5-66
+49-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:10:22-63
+50    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+50-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:44:5-84
+50-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:44:22-81
+51    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+51-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:7:5-79
+51-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:7:22-76
+52    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+52-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:6:5-76
+52-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:6:22-73
+53    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+53-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:47:5-78
+53-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:47:22-75
+54
+55    <!-- nfc权限相关 -->
+56    <uses-permission android:name="android.permission.NFC" />
+56-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:50:5-62
+56-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:50:22-59
+57
+58    <uses-feature
+58-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:52:5-54:35
+59        android:name="android.hardware.nfc"
+59-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:53:9-44
+60        android:required="true" />
+60-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:54:9-32
+61
+62    <!-- 启动 -->
+63    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+63-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-81
+63-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-78
+64    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+64-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-80
+64-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-77
+65    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+65-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
+65-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
+66    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+66-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-78
+66-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:22-75
+67    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- 华为角标 -->
+67-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:18:5-77
+67-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:18:22-74
+68    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" /> <!-- vivo 角标 -->
+68-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:20:5-91
+68-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:20:22-88
+69    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON" /> <!-- honor 角标 -->
+69-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:22:5-83
+69-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:22:22-80
+70    <uses-permission android:name="com.hihonor.android.launcher.permission.CHANGE_BADGE" /> <!-- Optional. Required for location feature -->
+70-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:24:5-92
+70-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:24:22-89
+71    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+71-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:29:5-81
+71-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:29:22-78
+72    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+72-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:30:5-79
+72-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:30:22-76
+73    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+73-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:31:5-85
+73-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:31:22-82
+74    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+74-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:33:5-77
+74-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:33:22-74
+75
+76    <permission
+76-->[cn.jiguang.sdk:joperate:2.0.2] C:\Users\iDste-PC\.gradle\caches\transforms-3\a6e72cdea4d419d0055a38f9e5d69314\transformed\jetified-joperate-2.0.2\AndroidManifest.xml:11:5-13:47
+77        android:name="com.youdu.permission.JOPERATE_MESSAGE"
+77-->[cn.jiguang.sdk:joperate:2.0.2] C:\Users\iDste-PC\.gradle\caches\transforms-3\a6e72cdea4d419d0055a38f9e5d69314\transformed\jetified-joperate-2.0.2\AndroidManifest.xml:12:9-68
+78        android:protectionLevel="signature" />
+78-->[cn.jiguang.sdk:joperate:2.0.2] C:\Users\iDste-PC\.gradle\caches\transforms-3\a6e72cdea4d419d0055a38f9e5d69314\transformed\jetified-joperate-2.0.2\AndroidManifest.xml:13:9-44
+79
+80    <uses-permission android:name="com.youdu.permission.JOPERATE_MESSAGE" />
+80-->[cn.jiguang.sdk:joperate:2.0.2] C:\Users\iDste-PC\.gradle\caches\transforms-3\a6e72cdea4d419d0055a38f9e5d69314\transformed\jetified-joperate-2.0.2\AndroidManifest.xml:15:5-84
+80-->[cn.jiguang.sdk:joperate:2.0.2] C:\Users\iDste-PC\.gradle\caches\transforms-3\a6e72cdea4d419d0055a38f9e5d69314\transformed\jetified-joperate-2.0.2\AndroidManifest.xml:15:22-81
+81    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+81-->[cn.jiguang.sdk:joperate:2.0.2] C:\Users\iDste-PC\.gradle\caches\transforms-3\a6e72cdea4d419d0055a38f9e5d69314\transformed\jetified-joperate-2.0.2\AndroidManifest.xml:26:5-74
+81-->[cn.jiguang.sdk:joperate:2.0.2] C:\Users\iDste-PC\.gradle\caches\transforms-3\a6e72cdea4d419d0055a38f9e5d69314\transformed\jetified-joperate-2.0.2\AndroidManifest.xml:26:22-71
+82    <uses-permission android:name="android.permission.BLUETOOTH" />
+82-->[cn.jiguang.sdk:joperate:2.0.2] C:\Users\iDste-PC\.gradle\caches\transforms-3\a6e72cdea4d419d0055a38f9e5d69314\transformed\jetified-joperate-2.0.2\AndroidManifest.xml:27:5-68
+82-->[cn.jiguang.sdk:joperate:2.0.2] C:\Users\iDste-PC\.gradle\caches\transforms-3\a6e72cdea4d419d0055a38f9e5d69314\transformed\jetified-joperate-2.0.2\AndroidManifest.xml:27:22-65
+83
+84    <application
+84-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:56:5-257:19
+85        android:name="com.youdu.application.ImoocApplication"
+85-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:57:9-62
+86        android:allowBackup="true"
+86-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:58:9-35
+87        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+87-->[androidx.core:core:1.0.0] C:\Users\iDste-PC\.gradle\caches\transforms-3\2816a903b1de0b307232d6fac6e32363\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
+88        android:debuggable="true"
+89        android:icon="@mipmap/ic_launcher"
+89-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:59:9-43
+90        android:label="@string/app_name"
+90-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:60:9-41
+91        android:testOnly="true"
+92        android:theme="@style/AppTheme" >
+92-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:61:9-40
+93        <activity
+93-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:62:9-73:20
+94            android:name="com.youdu.activity.LoadingActivity"
+94-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:63:13-53
+95            android:exported="true"
+95-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:64:13-36
+96            android:screenOrientation="portrait"
+96-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:65:13-49
+97            android:theme="@style/SplashTheme"
+97-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:66:13-47
+98            android:windowSoftInputMode="adjustPan|stateHidden" >
+98-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:67:13-64
+99            <intent-filter>
+99-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:68:13-72:29
+100                <action android:name="android.intent.action.MAIN" />
+100-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:69:17-69
+100-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:69:25-66
+101
+102                <category android:name="android.intent.category.LAUNCHER" />
+102-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:71:17-77
+102-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:71:27-74
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:74:9-78:67
+106            android:name="com.youdu.activity.GuideActivity"
+106-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:75:13-51
+107            android:exported="false"
+107-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:76:13-37
+108            android:screenOrientation="portrait"
+108-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:77:13-49
+109            android:windowSoftInputMode="adjustPan|stateHidden" />
+109-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:78:13-64
+110        <activity
+110-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:79:9-84:67
+111            android:name="com.youdu.activity.HomeActivity"
+111-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:80:13-50
+112            android:exported="false"
+112-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:81:13-37
+113            android:launchMode="singleTask"
+113-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:82:13-44
+114            android:screenOrientation="portrait"
+114-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:83:13-49
+115            android:windowSoftInputMode="adjustPan|stateHidden" />
+115-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:84:13-64
+116        <activity
+116-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:85:9-88:62
+117            android:name="com.youdu.activity.SettingActivity"
+117-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:86:13-53
+118            android:exported="false"
+118-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:87:13-37
+119            android:label="@string/title_activity_setting" />
+119-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:88:13-59
+120        <activity
+120-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:89:9-92:52
+121            android:name="com.youdu.activity.SearchActivity"
+121-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:90:13-52
+122            android:exported="false"
+122-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:91:13-37
+123            android:screenOrientation="portrait" />
+123-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:92:13-49
+124        <activity
+124-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:93:9-97:67
+125            android:name="com.youdu.activity.LoginActivity"
+125-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:94:13-51
+126            android:exported="false"
+126-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:95:13-37
+127            android:screenOrientation="portrait"
+127-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:96:13-49
+128            android:windowSoftInputMode="adjustPan|stateHidden" />
+128-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:97:13-64
+129        <activity
+129-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:98:9-101:52
+130            android:name="com.youdu.activity.PhotoViewActivity"
+130-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:99:13-55
+131            android:exported="false"
+131-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:100:13-37
+132            android:screenOrientation="portrait" />
+132-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:101:13-49
+133        <activity
+133-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:102:9-105:52
+134            android:name="com.youdu.activity.MessageActivity"
+134-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:103:13-53
+135            android:exported="false"
+135-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:104:13-37
+136            android:screenOrientation="portrait" />
+136-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:105:13-49
+137        <activity
+137-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:106:9-110:52
+138            android:name="com.youdu.activity.CourseDetailActivity"
+138-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:107:13-58
+139            android:exported="false"
+139-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:108:13-37
+140            android:launchMode="singleTop"
+140-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:109:13-43
+141            android:screenOrientation="portrait" />
+141-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:110:13-49
+142        <!-- 本地产品更新列表服务 -->
+143        <service
+143-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:112:9-114:40
+144            android:name="com.youdu.service.UpdateProductService"
+144-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:113:13-57
+145            android:exported="false" />
+145-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:114:13-37
+146        <service
+146-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:115:9-117:40
+147            android:name="com.youdu.network.mina.MinaService"
+147-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:116:13-53
+148            android:exported="false" />
+148-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:117:13-37
+149        <service
+149-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:118:9-120:40
+150            android:name="com.youdu.service.update.UpdateService"
+150-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:119:13-57
+151            android:exported="false" />
+151-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:120:13-37
+152
+153        <!-- 热修复后台服务 -->
+154        <service
+154-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:123:9-126:40
+155            android:name="com.youdu.service.andfix.AndFixService"
+155-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:124:13-57
+156            android:enabled="true"
+156-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:125:13-35
+157            android:exported="false" />
+157-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:126:13-37
+158
+159        <!-- Tinker的服务 -->
+160        <service
+160-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:129:9-132:40
+161            android:name="com.youdu.tinker.CustomResultService"
+161-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:130:13-55
+162            android:enabled="true"
+162-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:131:13-35
+163            android:exported="false" />
+163-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:132:13-37
+164
+165        <!-- 监听系统状态栏变化通知 -->
+166        <service
+166-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:135:9-143:19
+167            android:name="com.youdu.service.notification.CommonNotificationListenerService"
+167-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:136:13-83
+168            android:exported="true"
+168-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:137:13-36
+169            android:label="@string/app_name"
+169-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:138:13-45
+170            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+170-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:139:13-87
+171            <intent-filter>
+171-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:140:13-142:29
+172                <action android:name="android.service.notification.NotificationListenerService" />
+172-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:141:17-99
+172-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:141:25-96
+173            </intent-filter>
+174        </service>
+175        <service
+175-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:145:9-156:19
+176            android:name="com.youdu.service.notification.WeChatAccessibilityService"
+176-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:146:13-76
+177            android:exported="true"
+177-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:147:13-36
+178            android:label="@string/app_name"
+178-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:148:13-45
+179            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+179-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:149:13-79
+180            <intent-filter>
+180-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:150:13-152:29
+181                <action android:name="android.accessibilityservice.AccessibilityService" />
+181-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:151:17-92
+181-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:151:25-89
+182            </intent-filter>
+183
+184            <meta-data
+184-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:153:13-155:69
+185                android:name="android.accessibilityservice"
+185-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:154:17-60
+186                android:resource="@xml/accessible_service_config" />
+186-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:155:17-66
+187        </service>
+188
+189        <!-- 二维码相关 -->
+190        <activity
+190-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:160:9-165:63
+191            android:name="com.youdu.zxing.app.CaptureActivity"
+191-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:161:13-54
+192            android:configChanges="orientation|keyboardHidden"
+192-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:162:13-63
+193            android:exported="false"
+193-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:163:13-37
+194            android:screenOrientation="portrait"
+194-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:164:13-49
+195            android:windowSoftInputMode="stateAlwaysHidden" />
+195-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:165:13-60
+196
+197        <!-- shareSDK -->
+198        <activity
+198-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:168:9-185:20
+199            android:name="com.mob.tools.MobUIShell"
+199-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:169:13-52
+200            android:configChanges="keyboardHidden|orientation|screenSize"
+200-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:170:13-74
+201            android:exported="true"
+201-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:171:13-36
+202            android:screenOrientation="portrait"
+202-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:172:13-49
+203            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+203-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:173:13-72
+204            android:windowSoftInputMode="stateHidden|adjustResize" >
+204-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:174:13-67
+205
+206            <!-- QQ和QQ空间分享 QQ登录的回调必须要配置的 -->
+207            <intent-filter>
+207-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:177:13-184:29
+208                <data android:scheme="tencent1104917113" />
+208-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:178:17-60
+208-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:178:23-57
+209
+210                <action android:name="android.intent.action.VIEW" />
+210-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:180:17-69
+210-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:180:25-66
+211
+212                <category android:name="android.intent.category.BROWSABLE" />
+212-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:182:17-78
+212-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:182:27-75
+213                <category android:name="android.intent.category.DEFAULT" />
+213-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:183:17-76
+213-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:183:27-73
+214            </intent-filter>
+215        </activity>
+216        <!-- 微信分享回调 -->
+217        <activity
+217-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:187:9-192:75
+218            android:name="com.youdu.wxapi.WXEntryActivity"
+218-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:188:13-50
+219            android:configChanges="keyboardHidden|orientation|screenSize"
+219-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:189:13-74
+220            android:exported="true"
+220-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:190:13-36
+221            android:screenOrientation="portrait"
+221-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:191:13-49
+222            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+222-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:192:13-72
+223
+224        <!-- nfc相关 -->
+225        <activity
+225-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:195:9-214:20
+226            android:name="com.youdu.nfc.NFCard"
+226-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:196:13-39
+227            android:exported="true"
+227-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:197:13-36
+228            android:launchMode="singleTask"
+228-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:198:13-44
+229            android:screenOrientation="portrait"
+229-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:199:13-49
+230            android:windowSoftInputMode="adjustUnspecified|stateAlwaysHidden" >
+230-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:200:13-78
+231            <intent-filter>
+231-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:201:13-203:29
+232                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+232-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:202:17-77
+232-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:202:25-74
+233            </intent-filter>
+234
+235            <meta-data
+235-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:205:13-207:59
+236                android:name="android.nfc.action.TECH_DISCOVERED"
+236-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:206:17-66
+237                android:resource="@xml/nfc_tech_filter" />
+237-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:207:17-56
+238
+239            <intent-filter>
+239-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:209:13-213:29
+240                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+240-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:210:17-76
+240-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:210:25-73
+241
+242                <category android:name="android.intent.category.DEFAULT" />
+242-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:183:17-76
+242-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:183:27-73
+243            </intent-filter>
+244        </activity>
+245        <activity
+245-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:216:9-219:40
+246            android:name="com.youdu.ar.ArActivity"
+246-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:217:13-42
+247            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+247-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:218:13-93
+248            android:exported="false" />
+248-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:219:13-37
+249
+250        <!-- 推送模块自定义部分 -->
+251        <activity
+251-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:222:9-224:40
+252            android:name="com.youdu.jpush.PushMessageActivity"
+252-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:223:13-54
+253            android:exported="false" />
+253-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:224:13-37
+254
+255        <receiver
+255-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:226:9-241:20
+256            android:name="com.youdu.jpush.JPushReceiver"
+256-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:227:13-48
+257            android:enabled="true"
+257-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:228:13-35
+258            android:exported="false" >
+258-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:229:13-37
+259            <intent-filter>
+259-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:230:13-240:29
+260                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+260-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:231:17-79
+260-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:231:25-76
+261                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+261-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:232:17-81
+261-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:232:25-78
+262                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+262-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:233:17-83
+262-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:233:25-80
+263                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+263-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:234:17-88
+263-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:234:25-85
+264                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+264-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:235:17-86
+264-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:235:25-83
+265                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" />
+265-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:236:17-91
+265-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:236:25-88
+266                <action android:name="cn.jpush.android.intent.CONNECTION" />
+266-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:237:17-77
+266-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:237:25-74
+267
+268                <category android:name="com.youdu" />
+268-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:239:17-54
+268-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:239:27-51
+269            </intent-filter>
+270        </receiver>
+271
+272        <!-- 友盟统计相关meta-data -->
+273        <meta-data
+273-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:244:9-246:56
+274            android:name="UMENG_APPKEY"
+274-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:245:13-40
+275            android:value="57bfe3cbe0f55a0b2e0025b8" />
+275-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:246:13-53
+276        <meta-data
+277            android:name="UMENG_CHANNEL"
+277-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:248:13-41
+278            android:value="imooc" />
+278-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:249:13-51
+279        <meta-data
+279-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:250:9-252:52
+280            android:name="IFLYTEK_APPKEY"
+280-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:251:13-42
+281            android:value="&apos;57c432ae&apos;" />
+281-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:252:13-49
+282        <meta-data
+282-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:253:9-255:44
+283            android:name="IFLYTEK_CHANNEL"
+283-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:254:13-43
+284            android:value="Android_Demo" />
+284-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:255:13-41
+285
+286        <activity android:name="com.youdu.activity.AdBrowserActivity" />
+286-->[:vuandroidadsdk] C:\Users\iDste-PC\Desktop\commonlibrary\vuandroidadsdk\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-73
+286-->[:vuandroidadsdk] C:\Users\iDste-PC\Desktop\commonlibrary\vuandroidadsdk\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:19-70
+287
+288        <service
+288-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-27:19
+289            android:name="com.lianjia.pullalive.accountsync.AuthenticationService"
+289-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-83
+290            android:exported="false" >
+290-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+291            <intent-filter>
+291-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:29
+292                <action android:name="android.accounts.AccountAuthenticator" />
+292-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-80
+292-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:25-77
+293            </intent-filter>
+294
+295            <meta-data
+295-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-26:57
+296                android:name="android.accounts.AccountAuthenticator"
+296-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-69
+297                android:resource="@xml/authenticator" />
+297-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-54
+298        </service>
+299        <service
+299-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-39:19
+300            android:name="com.lianjia.pullalive.accountsync.SyncService"
+300-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-73
+301            android:exported="false"
+301-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-37
+302            android:label="@string/app_name_pullalive" >
+302-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-55
+303            <intent-filter>
+303-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+304                <action android:name="android.content.SyncAdapter" />
+304-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-70
+304-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-67
+305            </intent-filter>
+306
+307            <meta-data
+307-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-38:55
+308                android:name="android.content.SyncAdapter"
+308-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:17-59
+309                android:resource="@xml/syncadapter" />
+309-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:17-52
+310        </service>
+311
+312        <provider
+312-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:9-46:39
+313            android:name="com.lianjia.pullalive.accountsync.SyncProvider"
+313-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-74
+314            android:authorities="com.youdu.accountsync.syncprovider"
+314-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-69
+315            android:exported="false"
+315-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-37
+316            android:label="@string/app_name_pullalive"
+316-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-55
+317            android:syncable="true" />
+317-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-36
+318
+319        <service
+319-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:9-52:72
+320            android:name="com.lianjia.pullalive.jobscheduler.PLJobService"
+320-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-75
+321            android:enabled="false"
+321-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-36
+322            android:exported="false"
+322-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-37
+323            android:permission="android.permission.BIND_JOB_SERVICE" />
+323-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-69
+324        <service
+324-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:9-61:19
+325            android:name="com.lianjia.pullalive.nl.NLService"
+325-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:13-62
+326            android:exported="false"
+326-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:13-37
+327            android:label="@string/app_name_pullalive"
+327-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:13-55
+328            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+328-->[:lib_pullalive] C:\Users\iDste-PC\Desktop\commonlibrary\lib_pullalive\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:13-87
+329            <intent-filter>
+329-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:140:13-142:29
+330                <action android:name="android.service.notification.NotificationListenerService" />
+330-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:141:17-99
+330-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:141:25-96
+331            </intent-filter>
+332        </service>
+333        <service
+333-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:10:9-14:40
+334            android:name="com.tencent.tinker.lib.service.TinkerPatchForeService"
+334-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:11:13-81
+335            android:enabled="true"
+335-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:12:13-35
+336            android:exported="false"
+336-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:13:13-37
+337            android:process=":patch" />
+337-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:14:13-37
+338        <!--
+339            Notice:
+340            Following service must run in the same process.
+341              TinkerPatchService
+342              TinkerPatchService$InnerService
+343        -->
+344        <!-- ########################################################################### -->
+345        <service
+345-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:22:9-26:40
+346            android:name="com.tencent.tinker.lib.service.TinkerPatchService"
+346-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:23:13-77
+347            android:exported="false"
+347-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:24:13-37
+348            android:permission="android.permission.BIND_JOB_SERVICE"
+348-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:25:13-69
+349            android:process=":patch" />
+349-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:26:13-37
+350        <service
+350-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:27:9-30:40
+351            android:name="com.tencent.tinker.lib.service.TinkerPatchService$InnerService"
+351-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:28:13-90
+352            android:exported="false"
+352-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:29:13-37
+353            android:process=":patch" /> <!-- ########################################################################### -->
+353-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:30:13-37
+354        <service
+354-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:31:9-34:72
+355            android:name="com.tencent.tinker.lib.service.DefaultTinkerResultService"
+355-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:32:13-85
+356            android:exported="false"
+356-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:33:13-37
+357            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Rich push 核心功能 since 2.0.6 -->
+357-->[com.tencent.tinker:tinker-android-lib:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\c64f7734af497d7a092eb7364f249925\transformed\jetified-tinker-android-lib-1.9.14.25.3\AndroidManifest.xml:34:13-69
+358        <activity
+358-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:47:9-58:20
+359            android:name="cn.jpush.android.ui.PopWinActivity"
+359-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:48:13-62
+360            android:exported="true"
+360-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:49:13-36
+361            android:theme="@style/MyDialogStyle" >
+361-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:50:13-49
+362            <intent-filter>
+362-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:51:13-57:29
+363                <category android:name="android.intent.category.DEFAULT" />
+363-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:183:17-76
+363-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:183:27-73
+364
+365                <action android:name="cn.jpush.android.ui.PopWinActivity" />
+365-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:54:17-77
+365-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:54:25-74
+366
+367                <category android:name="com.youdu" />
+367-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:239:17-54
+367-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:239:27-51
+368            </intent-filter>
+369        </activity> <!-- Required SDK核心功能 -->
+370        <activity
+370-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:61:9-72:20
+371            android:name="cn.jpush.android.ui.PushActivity"
+371-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:62:13-60
+372            android:configChanges="orientation|keyboardHidden"
+372-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:63:13-63
+373            android:exported="true"
+373-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:64:13-36
+374            android:theme="@android:style/Theme.NoTitleBar" >
+374-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:65:13-60
+375            <intent-filter>
+375-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:66:13-71:29
+376                <action android:name="cn.jpush.android.ui.PushActivity" />
+376-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:67:17-75
+376-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:67:25-72
+377
+378                <category android:name="android.intent.category.DEFAULT" />
+378-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:183:17-76
+378-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:183:27-73
+379                <category android:name="com.youdu" />
+379-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:239:17-54
+379-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:239:27-51
+380            </intent-filter>
+381        </activity> <!-- Required SDK 核心功能 -->
+382        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+383        <service
+383-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:75:9-86:19
+384            android:name="cn.jpush.android.service.PushService"
+384-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:76:13-64
+385            android:enabled="true"
+385-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:77:13-35
+386            android:exported="false"
+386-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:78:13-37
+387            android:process=":pushcore" >
+387-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:79:13-40
+388            <intent-filter>
+388-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:80:13-85:29
+389                <action android:name="cn.jpush.android.intent.REGISTER" />
+389-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:81:17-75
+389-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:81:25-72
+390                <action android:name="cn.jpush.android.intent.REPORT" />
+390-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:82:17-73
+390-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:82:25-70
+391                <action android:name="cn.jpush.android.intent.PushService" />
+391-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:83:17-78
+391-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:83:25-75
+392                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+392-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:84:17-76
+392-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:84:25-73
+393            </intent-filter>
+394        </service> <!-- Required SDK核心功能 -->
+395        <receiver
+395-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:89:9-97:20
+396            android:name="cn.jpush.android.service.PushReceiver"
+396-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:90:13-65
+397            android:enabled="true"
+397-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:91:13-35
+398            android:exported="false" >
+398-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:92:13-37
+399            <intent-filter android:priority="1000" >
+399-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:93:13-96:29
+399-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:93:28-51
+400                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+400-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:94:17-94
+400-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:94:25-91
+401                <category android:name="com.youdu" />
+401-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:239:17-54
+401-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:239:27-51
+402            </intent-filter>
+403        </receiver> <!-- Required SDK核心功能 -->
+404        <receiver
+404-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:100:9-102:40
+405            android:name="cn.jpush.android.service.AlarmReceiver"
+405-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:101:13-66
+406            android:exported="false" /> <!-- since 3.5.0 Required SDK 核心功能 -->
+406-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:102:13-37
+407        <!-- 3.5.0新增，用于定时展示功能 -->
+408        <receiver
+408-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:106:9-108:40
+409            android:name="cn.jpush.android.service.SchedulerReceiver"
+409-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:107:13-70
+410            android:exported="false" /> <!-- since 3.0.9 Required SDK 核心功能 -->
+410-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:108:13-37
+411        <provider
+411-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:111:9-115:43
+412            android:name="cn.jpush.android.service.DataProvider"
+412-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:112:13-65
+413            android:authorities="com.youdu.DataProvider"
+413-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:113:13-64
+414            android:exported="false"
+414-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:114:13-37
+415            android:process=":pushcore" /> <!-- since 3.3.0 Required SDK核心功能 -->
+415-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:115:13-40
+416        <activity
+416-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:118:9-129:20
+417            android:name="cn.jpush.android.service.JNotifyActivity"
+417-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:119:13-68
+418            android:exported="true"
+418-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:120:13-36
+419            android:taskAffinity=""
+419-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:121:13-36
+420            android:theme="@style/JPushTheme" >
+420-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:122:13-46
+421            <intent-filter>
+421-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:123:13-128:29
+422                <action android:name="cn.jpush.android.intent.JNotifyActivity" />
+422-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:124:17-82
+422-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:124:25-79
+423
+424                <category android:name="android.intent.category.DEFAULT" />
+424-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:183:17-76
+424-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:183:27-73
+425                <category android:name="com.youdu" />
+425-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:239:17-54
+425-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:239:27-51
+426            </intent-filter>
+427        </activity> <!-- since 4.6.0 Required SDK核心功能 -->
+428        <activity
+428-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:131:9-142:20
+429            android:name="cn.android.service.JTransitActivity"
+429-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:132:13-63
+430            android:exported="true"
+430-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:133:13-36
+431            android:taskAffinity=""
+431-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:134:13-36
+432            android:theme="@style/JPushTheme" >
+432-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:135:13-46
+433            <intent-filter>
+433-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:136:13-141:29
+434                <action android:name="cn.android.service.JTransitActivity" />
+434-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:137:17-78
+434-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:137:25-75
+435
+436                <category android:name="android.intent.category.DEFAULT" />
+436-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:183:17-76
+436-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:183:27-73
+437                <category android:name="com.youdu" />
+437-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:239:17-54
+437-->C:\Users\iDste-PC\Desktop\commonlibrary\app\src\main\AndroidManifest.xml:239:27-51
+438            </intent-filter>
+439        </activity> <!-- since 3.5.6 新增华硕通道 -->
+440        <receiver
+440-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:144:9-146:40
+441            android:name="cn.jpush.android.asus.AsusPushMessageReceiver"
+441-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:145:13-73
+442            android:exported="false" /> <!-- Required  . Enable it you can get statistics data with channel -->
+442-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:146:13-37
+443        <meta-data
+443-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:148:9-150:48
+444            android:name="JPUSH_CHANNEL"
+444-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:149:13-41
+445            android:value="developer-default" />
+445-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:150:13-45
+446        <meta-data
+446-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:151:9-153:47
+447            android:name="JPUSH_APPKEY"
+447-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:152:13-40
+448            android:value="31c7267ea593bd4b4e96b96a" /> <!-- </>值来自开发者平台取得的AppKey -->
+448-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:153:13-44
+449        <!-- since 5.0.0 -->
+450        <provider
+450-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:155:9-158:40
+451            android:name="cn.jpush.android.service.InitProvider"
+451-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:156:13-65
+452            android:authorities="com.youdu.jiguang.InitProvider"
+452-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:157:13-72
+453            android:exported="false" />
+453-->[cn.jiguang.sdk:jpush:5.0.7] C:\Users\iDste-PC\.gradle\caches\transforms-3\2117ab242fc58b102832344e4ba7d092\transformed\jetified-jpush-5.0.7\AndroidManifest.xml:158:13-37
+454
+455        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00" />
+455-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:10:9-95
+455-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:10:19-92
+456        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01" />
+456-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:11:9-95
+456-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:11:19-92
+457        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02" />
+457-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:12:9-95
+457-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:12:19-92
+458        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03" />
+458-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:13:9-95
+458-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:13:19-92
+459        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04" />
+459-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:14:9-95
+459-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:14:19-92
+460        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05" />
+460-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:15:9-95
+460-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:15:19-92
+461        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06" />
+461-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:16:9-95
+461-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:16:19-92
+462        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07" />
+462-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:17:9-95
+462-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:17:19-92
+463        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08" />
+463-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:18:9-95
+463-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:18:19-92
+464        <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09" />
+464-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:19:9-95
+464-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:19:19-92
+465        <activity
+465-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:20:9-22:64
+466            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T"
+466-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:21:13-88
+467            android:theme="@android:style/Theme.Translucent" />
+467-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:22:13-61
+468        <activity
+468-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:23:9-25:64
+469            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T"
+469-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:24:13-88
+470            android:theme="@android:style/Theme.Translucent" />
+470-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:25:13-61
+471        <activity
+471-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:26:9-28:64
+472            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T"
+472-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:27:13-88
+473            android:theme="@android:style/Theme.Translucent" />
+473-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:28:13-61
+474        <activity
+474-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:29:9-31:46
+475            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00"
+475-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:30:13-86
+476            android:launchMode="singleTop" />
+476-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:31:13-43
+477        <activity
+477-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:32:9-34:46
+478            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01"
+478-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:33:13-86
+479            android:launchMode="singleTop" />
+479-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:34:13-43
+480        <activity
+480-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:35:9-37:46
+481            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02"
+481-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:36:13-86
+482            android:launchMode="singleTop" />
+482-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:37:13-43
+483        <activity
+483-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:38:9-40:46
+484            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03"
+484-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:39:13-86
+485            android:launchMode="singleTop" />
+485-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:40:13-43
+486        <activity
+486-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:41:9-43:46
+487            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04"
+487-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:42:13-86
+488            android:launchMode="singleTop" />
+488-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:43:13-43
+489        <activity
+489-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:44:9-46:46
+490            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05"
+490-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:45:13-86
+491            android:launchMode="singleTop" />
+491-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:46:13-43
+492        <activity
+492-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:47:9-49:46
+493            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06"
+493-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:48:13-86
+494            android:launchMode="singleTop" />
+494-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:49:13-43
+495        <activity
+495-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:50:9-52:46
+496            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07"
+496-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:51:13-86
+497            android:launchMode="singleTop" />
+497-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:52:13-43
+498        <activity
+498-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:53:9-55:46
+499            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08"
+499-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:54:13-86
+500            android:launchMode="singleTop" />
+500-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:55:13-43
+501        <activity
+501-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:56:9-58:46
+502            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09"
+502-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:57:13-86
+503            android:launchMode="singleTop" />
+503-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:58:13-43
+504        <activity
+504-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:59:9-62:64
+505            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T"
+505-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:60:13-88
+506            android:launchMode="singleTop"
+506-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:61:13-43
+507            android:theme="@android:style/Theme.Translucent" />
+507-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:62:13-61
+508        <activity
+508-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:63:9-66:64
+509            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T"
+509-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:64:13-88
+510            android:launchMode="singleTop"
+510-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:65:13-43
+511            android:theme="@android:style/Theme.Translucent" />
+511-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:66:13-61
+512        <activity
+512-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:67:9-70:64
+513            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T"
+513-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:68:13-88
+514            android:launchMode="singleTop"
+514-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:69:13-43
+515            android:theme="@android:style/Theme.Translucent" />
+515-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:70:13-61
+516        <activity
+516-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:71:9-73:47
+517            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00"
+517-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:72:13-87
+518            android:launchMode="singleTask" />
+518-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:73:13-44
+519        <activity
+519-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:74:9-76:47
+520            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01"
+520-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:75:13-87
+521            android:launchMode="singleTask" />
+521-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:76:13-44
+522        <activity
+522-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:77:9-79:47
+523            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02"
+523-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:78:13-87
+524            android:launchMode="singleTask" />
+524-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:79:13-44
+525        <activity
+525-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:80:9-82:47
+526            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03"
+526-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:81:13-87
+527            android:launchMode="singleTask" />
+527-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:82:13-44
+528        <activity
+528-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:83:9-85:47
+529            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04"
+529-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:84:13-87
+530            android:launchMode="singleTask" />
+530-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:85:13-44
+531        <activity
+531-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:86:9-88:47
+532            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05"
+532-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:87:13-87
+533            android:launchMode="singleTask" />
+533-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:88:13-44
+534        <activity
+534-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:89:9-91:47
+535            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06"
+535-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:90:13-87
+536            android:launchMode="singleTask" />
+536-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:91:13-44
+537        <activity
+537-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:92:9-94:47
+538            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07"
+538-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:93:13-87
+539            android:launchMode="singleTask" />
+539-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:94:13-44
+540        <activity
+540-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:95:9-97:47
+541            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08"
+541-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:96:13-87
+542            android:launchMode="singleTask" />
+542-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:97:13-44
+543        <activity
+543-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:98:9-100:47
+544            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09"
+544-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:99:13-87
+545            android:launchMode="singleTask" />
+545-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:100:13-44
+546        <activity
+546-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:101:9-104:64
+547            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T"
+547-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:102:13-89
+548            android:launchMode="singleTask"
+548-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:103:13-44
+549            android:theme="@android:style/Theme.Translucent" />
+549-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:104:13-61
+550        <activity
+550-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:105:9-108:64
+551            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T"
+551-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:106:13-89
+552            android:launchMode="singleTask"
+552-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:107:13-44
+553            android:theme="@android:style/Theme.Translucent" />
+553-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:108:13-61
+554        <activity
+554-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:109:9-112:64
+555            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T"
+555-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:110:13-89
+556            android:launchMode="singleTask"
+556-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:111:13-44
+557            android:theme="@android:style/Theme.Translucent" />
+557-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:112:13-61
+558        <activity
+558-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:113:9-115:51
+559            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00"
+559-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:114:13-85
+560            android:launchMode="singleInstance" />
+560-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:115:13-48
+561        <activity
+561-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:116:9-118:51
+562            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01"
+562-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:117:13-85
+563            android:launchMode="singleInstance" />
+563-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:118:13-48
+564        <activity
+564-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:119:9-121:51
+565            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02"
+565-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:120:13-85
+566            android:launchMode="singleInstance" />
+566-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:121:13-48
+567        <activity
+567-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:122:9-124:51
+568            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03"
+568-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:123:13-85
+569            android:launchMode="singleInstance" />
+569-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:124:13-48
+570        <activity
+570-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:125:9-127:51
+571            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04"
+571-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:126:13-85
+572            android:launchMode="singleInstance" />
+572-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:127:13-48
+573        <activity
+573-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:128:9-130:51
+574            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05"
+574-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:129:13-85
+575            android:launchMode="singleInstance" />
+575-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:130:13-48
+576        <activity
+576-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:131:9-133:51
+577            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06"
+577-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:132:13-85
+578            android:launchMode="singleInstance" />
+578-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:133:13-48
+579        <activity
+579-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:134:9-136:51
+580            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07"
+580-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:135:13-85
+581            android:launchMode="singleInstance" />
+581-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:136:13-48
+582        <activity
+582-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:137:9-139:51
+583            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08"
+583-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:138:13-85
+584            android:launchMode="singleInstance" />
+584-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:139:13-48
+585        <activity
+585-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:140:9-142:51
+586            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09"
+586-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:141:13-85
+587            android:launchMode="singleInstance" />
+587-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:142:13-48
+588        <activity
+588-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:143:9-146:64
+589            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T"
+589-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:144:13-87
+590            android:launchMode="singleInstance"
+590-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:145:13-48
+591            android:theme="@android:style/Theme.Translucent" />
+591-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:146:13-61
+592        <activity
+592-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:147:9-150:64
+593            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T"
+593-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:148:13-87
+594            android:launchMode="singleInstance"
+594-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:149:13-48
+595            android:theme="@android:style/Theme.Translucent" />
+595-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:150:13-61
+596        <activity
+596-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:151:9-154:64
+597            android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T"
+597-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:152:13-87
+598            android:launchMode="singleInstance"
+598-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:153:13-48
+599            android:theme="@android:style/Theme.Translucent" />
+599-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:154:13-61
+600
+601        <meta-data
+601-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:156:9-158:43
+602            android:name="tinker_version"
+602-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:157:13-42
+603            android:value="1.9.14.25.3" />
+603-->[com.tencent.tinker:tinker-android-loader:1.9.14.25.3] C:\Users\iDste-PC\.gradle\caches\transforms-3\8e6ea49ac8aa3bcc35dc97f05ff3979b\transformed\jetified-tinker-android-loader-1.9.14.25.3\AndroidManifest.xml:158:13-40
+604    </application>
+605
+606</manifest>

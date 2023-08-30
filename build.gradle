@@ -1,0 +1,45 @@
+apply from: this.file('common.gradle')
+//引入task依赖关系图生成插件
+//apply plugin: 'cz.malohlava.visteg'
+
+//visteg {
+//    enabled = true
+//    colouredNodes = true
+//    colouredEdges = true
+//    destination = 'build/reports/visteg.dot'
+//    exporter = 'dot'
+//    colorscheme = 'spectral11'
+//    nodeShape = 'box'
+//    startNodeShape = 'hexagon'
+//    endNodeShape = 'doubleoctagon'
+//}
+
+subprojects { project -> project.apply from: '../publishToMaven.gradle' //引入一个写好的脚本
+}
+
+buildscript {
+    //配置工程的仓库地址
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        google()
+        mavenCentral()
+//        maven {
+//            url 'http://localhost:8081/nexus/repositories/'
+//        }
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+        maven { url "https://mvn.mob.com/android" }
+        maven { url 'https://plugins.gradle.org/m2/' }
+        maven { url "https://www.jitpack.io" }
+    }
+
+    //配置工程的"插件"依赖地址
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.4.2"
+        classpath "io.realm:realm-gradle-plugin:10.16.1" //添加realm插件
+        classpath "com.tencent.tinker:tinker-patch-gradle-plugin:1.9.14.25.3" //引入Tinker
+//        classpath 'gradle.plugin.cz.malohlava:visteg:1.0.5' //依赖关系图生成插件
+        classpath "com.mob.sdk:MobSDK2:+"
+    }
+}
+
+

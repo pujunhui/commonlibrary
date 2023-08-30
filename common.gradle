@@ -1,0 +1,42 @@
+//用来存放应用中的所有配置变量，统一管理，而不再是每个module里都自己写一份，修改起来更加的方便
+
+ext {
+
+    android = [compileSdk          : 33,
+               applicationId       : 'com.youdu',
+               minSdk              : 21,
+               targetSdk           : 33,
+               versionCode         : 1,
+               versionName         : '1.0.0',
+               multiDexEnabled     : true,
+               manifestPlaceholders: [
+                       UMENG_CHANNEL_VALUE: 'imooc',
+                       JPUSH_CHANNEL      : 'developer-default',
+                       JPUSH_APPKEY       : '31c7267ea593bd4b4e96b96a',
+                       JPUSH_PKGNAME      : 'com.youdu'
+               ]]
+
+    signConfigs = ['storeFile'    : 'youdo.jks',
+                   'storePassword': 'rzq123456',
+                   'keyAlias'     : 'qndroid',
+                   'keyPassword'  : 'rzq123456']
+
+    java = ['javaVersion': JavaVersion.VERSION_1_8]
+
+
+    dependence = ['libSupportV7'           : 'com.android.support:appcompat-v7:28.0.0',
+                  'libSupportMultidex'     : 'com.android.support:multidex:1.0.3',
+                  'libCommonLibrary'       : ':vuandroidadsdk',
+                  'libPullAlive'           : ':lib_pullalive',
+                  'libCircleImageView'     : 'de.hdodenhof:circleimageview:3.1.0',
+                  'libSystembarTint'       : 'com.readystatesoftware.systembartint:systembartint:1.0.4',
+                  'libUmengAnalytics'      : 'com.umeng.analytics:analytics:6.1.4',
+                  'libUniversalImageLoader': 'com.nostra13.universalimageloader:universal-image-loader:1.9.5',
+                  'libOkhttp'              : 'com.squareup.okhttp3:okhttp:3.3.0',
+                  'libAutoScrollViewPager' : 'cn.trinea.android.view.autoscrollviewpager:android-auto-scroll-view-pager:1.1.2',
+                  'libSlidableActivity'    : 'com.r0adkll:slidableactivity:2.1.0',
+                  'libAndfix'              : 'com.alipay.euler:andfix:0.5.0@aar',
+                  'libLogger'              : 'com.orhanobut:logger:+',
+                  'libTinker'              : "com.tencent.tinker:tinker-android-lib:1.9.14.25.3",
+                  'libTinkerAndroid'       : "com.tencent.tinker:tinker-android-anno:1.9.14.25.3"]
+}

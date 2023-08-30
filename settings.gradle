@@ -1,0 +1,26 @@
+pluginManagement {
+  repositories {
+    google()
+    mavenCentral()
+    gradlePluginPortal()
+  }
+}
+dependencyResolutionManagement {
+  repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+  repositories {
+    maven { url "https://www.jitpack.io" }
+    maven { url 'https://maven.aliyun.com/repository/public/' }
+    maven { url 'https://plugins.gradle.org/m2/' }
+    google()
+    mavenCentral()
+  }
+}
+
+rootProject.name = "CommonLibrary"
+include ':app'
+include ':vuandroidadsdk'
+include ':lib_pullalive'
+if (hasProperty('isLoadTest') ? isLoadTest.toBoolean() : false) {
+  include ':Test'
+}
+

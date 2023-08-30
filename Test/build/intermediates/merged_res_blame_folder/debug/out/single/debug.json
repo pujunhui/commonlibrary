@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/drawable-xxhdpi_anim6.png.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/drawable-xxhdpi/anim6.png"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/raw_bg_1_a_01.webp.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/raw/bg_1_a_01.webp"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/layout_content_retrofit_test.xml.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/layout/content_retrofit_test.xml"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/transition_transition_activity_detail_enter.xml.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/transition/transition_activity_detail_enter.xml"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/drawable-xxhdpi_anim4.png.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/drawable-xxhdpi/anim4.png"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/drawable_ic_android_black_24dp.xml.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/drawable/ic_android_black_24dp.xml"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/raw_bg_1_b_01.webp.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/raw/bg_1_b_01.webp"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/transition_transition_activity_main_exit.xml.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/transition/transition_activity_main_exit.xml"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/drawable-xxhdpi_anim5.png.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/drawable-xxhdpi/anim5.png"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/layout_activity_retrofit_test.xml.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/layout/activity_retrofit_test.xml"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/drawable-xxhdpi_anim2.png.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/drawable-xxhdpi/anim2.png"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/layout_activity_main.xml.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/drawable-xxhdpi_anim1.png.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/drawable-xxhdpi/anim1.png"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/raw_bg_2_b_01.webp.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/raw/bg_2_b_01.webp"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/drawable-xxhdpi_anim3.png.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/drawable-xxhdpi/anim3.png"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.imooc.viewpagertest.Test-merged_res-12:/raw_bg_2_a_01.webp.flat",
+        "source": "com.imooc.viewpagertest.Test-main-14:/raw/bg_2_a_01.webp"
+    }
+]
