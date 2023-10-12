@@ -1,6 +1,0 @@
-com.lianjia.pullalive
-drawable ic_launcher
-string app_name
-string app_name_pullalive
-xml authenticator
-xml syncadapter

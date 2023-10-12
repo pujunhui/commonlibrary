@@ -24,3 +24,4 @@ if (hasProperty('isLoadTest') ? isLoadTest.toBoolean() : false) {
   include ':Test'
 }
 
+println "初始化阶段开始执行"

@@ -5,7 +5,7 @@ apply plugin: 'com.imooc.gradle.study'
 //apply plugin: 'com.mob.sdk'
 
 android {
-    compileSdk rootProject.ext.android.compileSdk
+    compileSdk rootProject.android.compileSdk
 
     defaultConfig {
         applicationId rootProject.ext.android.applicationId
@@ -16,7 +16,7 @@ android {
         multiDexEnabled rootProject.ext.android.multiDexEnabled //突破应用方法数65535的一个限制
         manifestPlaceholders = rootProject.ext.android.manifestPlaceholders
 
-        ndk{
+        ndk {
             abiFilters "armeabi-v7a", "arm64-v8a"//, "x86", "x86_64"
         }
     }
@@ -73,37 +73,47 @@ android {
 //为应用程序添加第三方库依赖
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation rootProject.ext.dependence.libSupportV7
-    implementation rootProject.ext.dependence.libSupportMultidex
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation libAndroidDesgin
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation dependence.libMultidex
+
     //依赖library工程
     implementation project(rootProject.ext.dependence.libCommonLibrary)
     implementation project(rootProject.ext.dependence.libPullAlive)
-    implementation rootProject.ext.dependence.libCircleImageView
-    implementation rootProject.ext.dependence.libSystembarTint
+    implementation rootProject.dependence.libCircleImageView
+    implementation rootProject.dependence.libSystembarTint
     //添加友盟统计
-    implementation rootProject.ext.dependence.libUmengAnalytics
-    implementation rootProject.ext.dependence.libUniversalImageLoader
-    implementation rootProject.ext.dependence.libOkhttp
+    implementation rootProject.dependence.libUmengAnalytics
+    implementation rootProject.dependence.libUniversalImageLoader
+    implementation rootProject.dependence.libOkhttp
     //okttp依赖
     //compile 'com.github.chrisbanes:PhotoView:1.3.0'
-    implementation(rootProject.ext.dependence.libAutoScrollViewPager) {
+    implementation(rootProject.dependence.libAutoScrollViewPager) {
         exclude module: 'support-v4' //排除依赖
         transitive false //禁止传递依赖
     }
-    implementation rootProject.ext.dependence.libSlidableActivity
+    implementation rootProject.dependence.libSlidableActivity
     //滑动关闭Activity库
-    implementation rootProject.ext.dependence.libAndfix
+    implementation rootProject.dependence.libAndfix
     //阿里热修复andfix
-    implementation rootProject.ext.dependence.libLogger
+    implementation rootProject.dependence.libLogger
     //日志库logger
     //Tinker相关依赖
-    implementation(rootProject.ext.dependence.libTinker) {
+    implementation(rootProject.dependence.libTinker) {
         changing = true //每次都从服务端拉取
     }
-    annotationProcessor(rootProject.ext.dependence.libTinkerAndroid) { changing = true }
+    annotationProcessor(rootProject.dependence.libTinkerAndroid) { changing = true }
 
-    implementation 'cn.jiguang.sdk:jpush:5.0.7'        // 必选，此处以JPush 5.0.7 版本为例，注意：5.0.0 版本开始可以自动拉取 JCore 包，无需另外配置
-    implementation 'cn.jiguang.sdk:joperate:2.0.2'     // 可选，集成极光分析SDK后，即可支持行为触发推送消息、推送转化率统计，用户行为分析和用户标签等功能
+    implementation 'cn.jiguang.sdk:jpush:5.0.7'
+    // 必选，此处以JPush 5.0.7 版本为例，注意：5.0.0 版本开始可以自动拉取 JCore 包，无需另外配置
+    implementation 'cn.jiguang.sdk:joperate:2.0.5'
+    // 可选，集成极光分析SDK后，即可支持行为触发推送消息、推送转化率统计，用户行为分析和用户标签等功能
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'com.kun:MPChartLib:1.0.6'
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
@@ -143,3 +153,48 @@ this.afterEvaluate {
 }
 
 
+//copy {
+//    from file('youdo.jks')
+//    into getRootProject().getBuildDir()
+//}
+copy {
+    from file('build/intermediates/apk/')
+    into getRootProject().getBuildDir().path + '/apk/'
+    include '**/*.apk'
+    exclude { details ->
+        details.file.name.endsWith('.json')
+    }
+    exclude("**/*.json")
+    rename { String fileName ->
+        fileName.replace("-", "_")
+    }
+}
+
+//对文件树进行遍历
+fileTree('build/outputs') { FileTree fileTree ->
+    fileTree.visit { FileTreeElement element ->
+        println 'the file name is:' + element.file.name
+        copy {
+            from element.file
+            into getRootProject().getBuildDir().path + '/apk/'
+        }
+    }
+}
+
+task('apkcopy') {
+    doLast {
+        //gradle的执行阶段去执行
+        def sourcePath = this.buildDir.path + 'build/intermediates/apk/'
+        def destinationPath = 'D:/'
+        def command = "mv -f ${sourcePath} ${destinationPath}"
+        exec {
+            try {
+                executable 'bash'
+                args '-c', command
+                println 'the command is execute success.'
+            } catch (GradleException e) {
+                println 'the command is execute failed.'
+            }
+        }
+    }
+}

@@ -14,7 +14,10 @@ apply from: this.file('common.gradle')
 //    endNodeShape = 'doubleoctagon'
 //}
 
-subprojects { project -> project.apply from: '../publishToMaven.gradle' //引入一个写好的脚本
+subprojects { Project project ->
+    if (project.plugins.hasPlugin('com.android.library')) {
+        project.apply from: '../publishToMaven.gradle' //引入一个写好的脚本
+    }
 }
 
 buildscript {
@@ -42,4 +45,134 @@ buildscript {
     }
 }
 
+//配置阶段开始前的监听回调
+this.beforeEvaluate {
+    println "配置阶段开始"
+}
 
+//配置阶段完成以后的监听回调
+this.afterEvaluate {
+    println "配置阶段执行完毕"
+}
+
+//gradle执行完成以后的监听回调
+this.gradle.buildFinished {
+    println "执行阶段执行完毕"
+}
+
+this.gradle.beforeProject {
+
+}
+this.gradle.afterProject {
+
+}
+
+this.gradle.addBuildListener(new BuildListener() {
+    @Override
+    void settingsEvaluated(Settings settings) {
+
+    }
+
+    @Override
+    void projectsLoaded(Gradle gradle) {
+
+    }
+
+    @Override
+    void projectsEvaluated(Gradle gradle) {
+
+    }
+
+    @Override
+    void buildFinished(BuildResult result) {
+
+    }
+})
+
+
+//this.getAllprojects()
+
+def getProjects() {
+    println "getAllprojects"
+    println "------------"
+    this.getAllprojects().eachWithIndex { Project project, int index ->
+        if (index == 0) {
+            println "Root Project:${project.name}"
+        } else {
+            println "+---- project:${project.name}"
+        }
+    }
+
+    println "getSubprojects"
+    println "------------"
+    this.getSubprojects().eachWithIndex { Project project, int index ->
+        println "+---- project:${project.name}"
+    }
+
+    println "getParentProject"
+    println "------------"
+    def name = project("app").getParent().name
+    println "app parent project name is: $name"
+
+    println "getRootProject"
+    println "------------"
+    name = project("app").getRootProject().name
+    println "the root project name is: $name"
+}
+
+getProjects()
+
+//project api讲解
+project("app") { Project project ->
+//    println project.name
+    apply plugin: 'com.android.application'
+    dependencies {}
+    android {}
+}
+
+project("vuandroidadsdk") { Project project ->
+    apply plugin: 'com.android.library'
+    dependencies {}
+}
+
+//配置当前节点工程和其子工程的所有project
+allprojects {
+    group 'com.imooc'
+    version '1.0.0-release'
+}
+
+println project("app").group
+
+//配置所有子工程的project
+subprojects { Project project ->
+    if (project.plugins.hasPlugin('com.android.library')) {
+        project.apply from: '../publishToMaven.gradle' //引入一个写好的脚本
+    }
+}
+
+//subprojects {
+//    ext {
+//        compileSdkVersion = 25
+//        libAndroidDesgin = 'com.google.android.material:material:1.9.0'
+//    }
+//}
+ext {
+    //gradle规定父project的属性会被子project继承
+    compileSdkVersion = 25
+    libAndroidDesgin = 'com.google.android.material:material:1.9.0'
+}
+
+//println "the root file path is:" + getRootDir().absolutePath
+//println "the build file path is:" + getBuildDir().absolutePath
+//println "the project file path is:" + getProjectDir().absolutePath
+
+//println getContent('common.gradle')
+
+def getContent(String path) {
+    try {
+        def file = file(path)
+        return file.text
+    } catch (GradleException e) {
+        return 'file not found.'
+    }
+}

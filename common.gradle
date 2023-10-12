@@ -25,7 +25,7 @@ ext {
 
 
     dependence = ['libSupportV7'           : 'com.android.support:appcompat-v7:28.0.0',
-                  'libSupportMultidex'     : 'com.android.support:multidex:1.0.3',
+                  'libMultidex'            : 'androidx.multidex:multidex:2.0.1',
                   'libCommonLibrary'       : ':vuandroidadsdk',
                   'libPullAlive'           : ':lib_pullalive',
                   'libCircleImageView'     : 'de.hdodenhof:circleimageview:3.1.0',
